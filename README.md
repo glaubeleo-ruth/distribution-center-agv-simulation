@@ -20,6 +20,7 @@ The center's layout is divided into four functional zones, connected via interse
 - **Outbound Dock** — shipment processing point
 <p align="center">
   <img width="500" height="300" src="assets/02_network_diagram.png" />
+  <br>
   <em>Figure 2: Network Diagram</em>
 </p>
 
@@ -33,9 +34,9 @@ The center's layout is divided into four functional zones, connected via interse
 - **Seize/Release**: In/Out ports and main equipment (Body) resources are seized and released to enforce physical buffer limits.
 - **Wait**: entities wait for the preceding resource (Body) to free up, preventing cross-process collisions.
 <p align="center">
-  <img width="377" height="745" src="/assets/03_logic_diagram" />
+  <img width="377" height="745" src="assets/03_logic_diagram" />
   <br>
-  <em>Figure 2: Logic diagram of distribution center</em>
+  <em>Figure 3: Logic diagram of distribution center</em>
 </p>
 
 ## Visualization
@@ -47,9 +48,9 @@ The center's layout is divided into four functional zones, connected via interse
   - Packing Process entity queue depth
   - AGV fleet count and deceleration/idle state
 <p align="center">
-  <img width="600" height="400" src="/assets/04_result_analysis" />
+  <img width="600" height="400" src="assets/04_result_analysis" />
   <br>
-  <em>Figure 3: Arena simulation results — waiting time and queue statistics</em>
+  <em>Figure 4: Arena simulation results — waiting time and queue statistics</em>
 </p>
 
 ## Simulation Setup
@@ -69,9 +70,9 @@ The center's layout is divided into four functional zones, connected via interse
 - **Request 3 Queue** (Transporter call point) averages **16.4** entities waiting — indicating transport delays from AGV shortage.
 - Recommended improvements: increase Packing Process throughput and parallelize equipment to expand process capacity.
 <p align="center">
-  <img width="642" height="466" src="/assets/05_dashboard_visualization.png" />
+  <img width="642" height="466" src="assets/05_dashboard_visualization.png" />
   <br>
-  <em>Figure 4: Analysis</em>
+  <em>Figure 5: Analysis</em>
 </p>
 
 
