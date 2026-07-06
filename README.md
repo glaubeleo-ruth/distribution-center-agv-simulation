@@ -27,7 +27,7 @@ The center's layout is divided into four functional zones, connected via interse
 - **Seize/Release**: In/Out ports and main equipment (Body) resources are seized and released to enforce physical buffer limits.
 - **Wait**: entities wait for the preceding resource (Body) to free up, preventing cross-process collisions.
 <p align="center">
-  <img width="377" height="745" alt="Screenshot 2026-07-06 at 1 54 20 PM" src="https://github.com/user-attachments/assets/c665ccaa-140f-41e4-8770-d96080ac2ebe" /><img width="643" height="478" alt="Screenshot 2026-07-06 at 1 55 06 PM" src="https://github.com/user-attachments/assets/d6adfc0e-67a4-4b1b-b159-0c862900366e" />
+  <img width="377" height="745" alt="Screenshot 2026-07-06 at 1 54 20 PM" src="https://github.com/user-attachments/assets/c665ccaa-140f-41e4-8770-d96080ac2ebe" />
 
   <br>
   <em>Figure 1: Network diagram of distribution center layout</em>
