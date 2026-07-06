@@ -30,7 +30,7 @@ The center's layout is divided into four functional zones, connected via interse
   <img width="377" height="745" alt="Screenshot 2026-07-06 at 1 54 20 PM" src="https://github.com/user-attachments/assets/c665ccaa-140f-41e4-8770-d96080ac2ebe" />
 
   <br>
-  <em>Figure 1: Network diagram of distribution center layout</em>
+  <em>Figure 2: Logic diagram of distribution center</em>
 </p>
 
 ## Visualization
