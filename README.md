@@ -1,6 +1,17 @@
+![Arena](https://img.shields.io/badge/Simulation-Arena-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 # Distribution Center AGV Simulation
 
 Smaller-scale simulation of a distribution center — modeling order flow from arrival to shipment, built in **Arena** for a 2025 System Simulation term project.
+
+## Contents
+- [Problem Statement](#problem-statement)
+- [Network Design](#network-design)
+- [Model Logic](#model-logic)
+- [Simulation Setup](#simulation-setup)
+- [Results](#results)
+- [Conclusion](#conclusion)
+- [Design Evaluation Notes](#design-evaluation-notes)
 
 ## Problem Statement
 
