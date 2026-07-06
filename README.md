@@ -5,9 +5,12 @@ Smaller-scale simulation of a distribution center — modeling order flow from a
 ## Problem Statement
 
 Recent surges in logistics volume have caused bottlenecks in small-scale distribution centers, particularly in AGV (Automated Guided Vehicle) transport segments. Increased transporter wait times drive up overall lead time and reduce system efficiency. This project analyzes the imbalance between AGV fleet size and workload to derive the optimal number of transporters needed for stable performance.
-
+<p align="center">
+  <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/0b2fb19e-53fb-4797-97f0-641d307e518f" />
+  <br>
+  <em>Figure 1: Problem Formulation</em>
+</p>
 ## Network Design
-
 The center's layout is divided into four functional zones, connected via intersections and network links that AGVs (Transporters) traverse:
 
 - **Inbound Dock** — receiving point for incoming goods
@@ -23,6 +26,26 @@ The center's layout is divided into four functional zones, connected via interse
 - **Assign**: synchronizes stock data on order/inbound/outbound events.
 - **Seize/Release**: In/Out ports and main equipment (Body) resources are seized and released to enforce physical buffer limits.
 - **Wait**: entities wait for the preceding resource (Body) to free up, preventing cross-process collisions.
+<p align="center">
+  <img width="377" height="745" alt="Screenshot 2026-07-06 at 1 54 20 PM" src="https://github.com/user-attachments/assets/c665ccaa-140f-41e4-8770-d96080ac2ebe" /><img width="643" height="478" alt="Screenshot 2026-07-06 at 1 55 06 PM" src="https://github.com/user-attachments/assets/d6adfc0e-67a4-4b1b-b159-0c862900366e" />
+
+  <br>
+  <em>Figure 1: Network diagram of distribution center layout</em>
+</p>
+
+## Visualization
+
+- **Logic Flow Diagram** — process flow from order arrival through Search/Decide/Assign/Seize-Release/Wait logic to shipment completion
+- **Network Diagram** — spatial layout of Inbound Dock, Storage/Rack Zone, Charging Station, and Outbound Dock, connected via intersections and network links
+- **Result Visualization** — real-time dashboards for:
+  - Storage inventory status (per-rack stock levels)
+  - Packing Process entity queue depth
+  - AGV fleet count and deceleration/idle state
+<p align="center">
+  <img width="201" height="144" alt="Network Diagram" src="https://github.com/user-attachments/assets/67b3d080-dbbe-408c-9082-893bfb6f6a5e" />
+  <br>
+  <em>Figure 3: Network diagram of distribution center layout</em>
+</p>
 
 ## Simulation Setup
 
@@ -40,6 +63,12 @@ The center's layout is divided into four functional zones, connected via interse
 - All Transporters bottleneck at the **Packing Process** segment by the end of the run.
 - **Request 3 Queue** (Transporter call point) averages **16.4** entities waiting — indicating transport delays from AGV shortage.
 - Recommended improvements: increase Packing Process throughput and parallelize equipment to expand process capacity.
+<p align="center">
+  <img width="642" height="466" alt="Screenshot 2026-07-06 at 1 57 56 PM" src="https://github.com/user-attachments/assets/a8994148-3daa-495b-9131-875b9d9f1a02" />
+  <br>
+  <em>Figure 4: Analysis</em>
+</p>
+
 
 ## Conclusion
 
