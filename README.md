@@ -18,6 +18,11 @@ The center's layout is divided into four functional zones, connected via interse
 - **Storage/Rack Zone** — product storage area
 - **Charging Station** — AGV standby and charging
 - **Outbound Dock** — shipment processing point
+<p align="center">
+  <img width="335" height="266" alt="Screenshot 2026-07-06 at 2 08 14 PM" src="https://github.com/user-attachments/assets/923bd7ca-e1a6-48b9-9455-ff91817515f1" />
+  <em>Figure 2: Network Diagram</em>
+</p>
+
 
 ## Model Logic
 
