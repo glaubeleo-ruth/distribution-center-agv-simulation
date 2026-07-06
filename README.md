@@ -6,7 +6,7 @@ Smaller-scale simulation of a distribution center — modeling order flow from a
 
 Recent surges in logistics volume have caused bottlenecks in small-scale distribution centers, particularly in AGV (Automated Guided Vehicle) transport segments. Increased transporter wait times drive up overall lead time and reduce system efficiency. This project analyzes the imbalance between AGV fleet size and workload to derive the optimal number of transporters needed for stable performance.
 <p align="center">
-  <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/0b2fb19e-53fb-4797-97f0-641d307e518f" />
+  <img width="335" height="266" alt="Network Diagram" src="assets/01_Problem_formulation.png" />
   <br>
   <em>Figure 1: Problem Formulation</em>
 </p>
@@ -19,7 +19,7 @@ The center's layout is divided into four functional zones, connected via interse
 - **Charging Station** — AGV standby and charging
 - **Outbound Dock** — shipment processing point
 <p align="center">
-  <img width="335" height="266" alt="Screenshot 2026-07-06 at 2 08 14 PM" src="https://github.com/user-attachments/assets/923bd7ca-e1a6-48b9-9455-ff91817515f1" />
+  <img width="335" height="266" src="assets/02_network_diagram.png" />
   <em>Figure 2: Network Diagram</em>
 </p>
 
@@ -33,8 +33,7 @@ The center's layout is divided into four functional zones, connected via interse
 - **Seize/Release**: In/Out ports and main equipment (Body) resources are seized and released to enforce physical buffer limits.
 - **Wait**: entities wait for the preceding resource (Body) to free up, preventing cross-process collisions.
 <p align="center">
-  <img width="377" height="745" alt="Screenshot 2026-07-06 at 1 54 20 PM" src="https://github.com/user-attachments/assets/c665ccaa-140f-41e4-8770-d96080ac2ebe" />
-
+  <img width="377" height="745" src="/assets/-3_logic_diagram" />
   <br>
   <em>Figure 2: Logic diagram of distribution center</em>
 </p>
@@ -48,7 +47,7 @@ The center's layout is divided into four functional zones, connected via interse
   - Packing Process entity queue depth
   - AGV fleet count and deceleration/idle state
 <p align="center">
-  <img width="600" height="400" alt="result analysis" src="https://github.com/user-attachments/assets/67b3d080-dbbe-408c-9082-893bfb6f6a5e" />
+  <img width="600" height="400" src="/assets/04_result_analysis" />
   <br>
   <em>Figure 3: Arena simulation results — waiting time and queue statistics</em>
 </p>
@@ -70,7 +69,7 @@ The center's layout is divided into four functional zones, connected via interse
 - **Request 3 Queue** (Transporter call point) averages **16.4** entities waiting — indicating transport delays from AGV shortage.
 - Recommended improvements: increase Packing Process throughput and parallelize equipment to expand process capacity.
 <p align="center">
-  <img width="642" height="466" alt="Screenshot 2026-07-06 at 1 57 56 PM" src="https://github.com/user-attachments/assets/a8994148-3daa-495b-9131-875b9d9f1a02" />
+  <img width="642" height="466" src="/assets/05_dashboard_visualization.png" />
   <br>
   <em>Figure 4: Analysis</em>
 </p>
