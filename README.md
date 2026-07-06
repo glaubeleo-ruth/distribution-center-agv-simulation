@@ -6,7 +6,7 @@ Smaller-scale simulation of a distribution center — modeling order flow from a
 
 Recent surges in logistics volume have caused bottlenecks in small-scale distribution centers, particularly in AGV (Automated Guided Vehicle) transport segments. Increased transporter wait times drive up overall lead time and reduce system efficiency. This project analyzes the imbalance between AGV fleet size and workload to derive the optimal number of transporters needed for stable performance.
 <p align="center">
-  <img width="335" height="266" alt="Network Diagram" src="assets/01_Problem_formulation.png" />
+  <img width="500" height="300" alt="Network Diagram" src="assets/01_Problem_formulation.png" />
   <br>
   <em>Figure 1: Problem Formulation</em>
 </p>
@@ -19,7 +19,7 @@ The center's layout is divided into four functional zones, connected via interse
 - **Charging Station** — AGV standby and charging
 - **Outbound Dock** — shipment processing point
 <p align="center">
-  <img width="335" height="266" src="assets/02_network_diagram.png" />
+  <img width="500" height="300" src="assets/02_network_diagram.png" />
   <em>Figure 2: Network Diagram</em>
 </p>
 
@@ -33,7 +33,7 @@ The center's layout is divided into four functional zones, connected via interse
 - **Seize/Release**: In/Out ports and main equipment (Body) resources are seized and released to enforce physical buffer limits.
 - **Wait**: entities wait for the preceding resource (Body) to free up, preventing cross-process collisions.
 <p align="center">
-  <img width="377" height="745" src="/assets/-3_logic_diagram" />
+  <img width="377" height="745" src="/assets/03_logic_diagram" />
   <br>
   <em>Figure 2: Logic diagram of distribution center</em>
 </p>
