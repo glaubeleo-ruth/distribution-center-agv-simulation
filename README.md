@@ -34,7 +34,7 @@ The center's layout is divided into four functional zones, connected via interse
 - **Seize/Release**: In/Out ports and main equipment (Body) resources are seized and released to enforce physical buffer limits.
 - **Wait**: entities wait for the preceding resource (Body) to free up, preventing cross-process collisions.
 <p align="center">
-  <img width="377" height="745" src="assets/03_logic_diagram" />
+  <img width="377" height="745" src="assets/03_logic_diagram.png" />
   <br>
   <em>Figure 3: Logic diagram of distribution center</em>
 </p>
@@ -48,7 +48,7 @@ The center's layout is divided into four functional zones, connected via interse
   - Packing Process entity queue depth
   - AGV fleet count and deceleration/idle state
 <p align="center">
-  <img width="600" height="400" src="assets/04_result_analysis" />
+  <img width="600" height="400" src="assets/04_result_analysis.png" />
   <br>
   <em>Figure 4: Arena simulation results — waiting time and queue statistics</em>
 </p>
