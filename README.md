@@ -42,7 +42,7 @@ The center's layout is divided into four functional zones, connected via interse
   - Packing Process entity queue depth
   - AGV fleet count and deceleration/idle state
 <p align="center">
-  <img width="450" height="225" alt="result analysis" src="https://github.com/user-attachments/assets/67b3d080-dbbe-408c-9082-893bfb6f6a5e" />
+  <img width="600" height="400" alt="result analysis" src="https://github.com/user-attachments/assets/67b3d080-dbbe-408c-9082-893bfb6f6a5e" />
   <br>
   <em>Figure 3: Arena simulation results — waiting time and queue statistics</em>
 </p>
