@@ -10,6 +10,7 @@ Recent surges in logistics volume have caused bottlenecks in small-scale distrib
   <br>
   <em>Figure 1: Problem Formulation</em>
 </p>
+
 ## Network Design
 The center's layout is divided into four functional zones, connected via intersections and network links that AGVs (Transporters) traverse:
 
