@@ -42,7 +42,7 @@ The center's layout is divided into four functional zones, connected via interse
   - Packing Process entity queue depth
   - AGV fleet count and deceleration/idle state
 <p align="center">
-  <img width="201" height="144" alt="Network Diagram" src="https://github.com/user-attachments/assets/67b3d080-dbbe-408c-9082-893bfb6f6a5e" />
+  <img width="400" height="200" alt="Network Diagram" src="https://github.com/user-attachments/assets/67b3d080-dbbe-408c-9082-893bfb6f6a5e" />
   <br>
   <em>Figure 3: Network diagram of distribution center layout</em>
 </p>
